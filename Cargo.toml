@@ -6,11 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = "4.4.1"
+actix-web = "4.5.1"
 actix-files = "0.6.5"
 tera = "1.19.1"
-serde = { version = "1.0.195", features = ["derive"] }
-color-eyre = "0.6.2"
+serde = { version = "1.0.201", features = ["derive"] }
+color-eyre = "0.6.3"
 lazy_static = "1.4.0"
 
 [lints.rust]
